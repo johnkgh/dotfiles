@@ -1,3 +1,7 @@
+if [ -f $HOME/.bashrc ]; then
+  source $HOME/.bashrc
+fi
+
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
